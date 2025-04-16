@@ -50,7 +50,7 @@ Browse menus from local restaurants
 
 Choose city & hotel
 
-Add food items to cart and place orders
+Add food items to the cart and place orders
 
 Choose dine-in, takeaway, or seat delivery
 
@@ -128,7 +128,7 @@ You’ll be redirected to your browser automatically. If not, visit: http://loca
 🧪 Sample Test Workflow
 Sign up with your email and details
 
-Login and access the homepage
+Log-in and access the homepage
 
 Search Trains or Book Metro/Flight/Cab
 
@@ -155,3 +155,27 @@ Ajit Kumar Gupta | https://www.linkedin.com/in/ajit-kumar-gupta-89405b297
 📬 Contact
 📧 ajeetkumargupta907@gmail.com 
 
+
+
+
+***before running the project, do the **
+**## 💾Database Setup**
+Open MySQL Command Line Client:
+  CREATE DATABASE irctc;
+
+Before searching for trains, run the following command in the MySQL command line to add dummy train data
+
+  INSERT INTO trains VALUES
+('Rajdhani Express', '12301', 'Delhi', 'Patna', '17:15', '08:45', '15h 30m', '2025-04-20', '1A, 2A, 3A', 'SL', 'GN', 'CC'),
+('Shatabdi Express', '12023', 'Patna', 'Howrah', '05:30', '13:30', '8h 00m', '2025-04-21', 'CC', 'EC', '', ''),
+('Vikramshila Express', '12367', 'Bhagalpur', 'Anand Vihar', '11:00', '06:10', '19h 10m', '2025-04-22', '1A, 2A, 3A', 'SL', 'GN', ''),
+('Magadh Express', '20801', 'Islampur', 'New Delhi', '15:30', '10:50', '19h 20m', '2025-04-23', '1A, 2A', '3A', 'SL', 'GN'),
+('Maurya Express', '15027', 'Hatia', 'Gorakhpur', '19:10', '13:30', '18h 20m', '2025-04-24', '2A', '3A', 'SL', 'GN'),
+('Patna Jan Shatabdi', '15125', 'Patna', 'Banaras', '05:30', '10:30', '5h 00m', '2025-04-25', 'CC', '2S', '', ''),
+('Tejas Rajdhani', '12309', 'Rajendra Nagar', 'New Delhi', '19:10', '07:40', '12h 30m', '2025-04-26', '1A, 2A, 3A', '', '', ''),
+('Patliputra Express', '18622', 'Patna', 'Howrah', '15:20', '06:10', '14h 50m', '2025-04-27', '2A', '3A', 'SL', ''),
+('Humsafar Express', '22354', 'Patna', 'Bangalore', '20:00', '10:30', '38h 30m', '2025-04-28', '3A', 'SL', '', ''),
+('Gaya Express', '12397', 'Gaya', 'New Delhi', '14:30', '07:45', '17h 15m', '2025-04-29', '1A, 2A', '3A', 'SL', 'GN'),
+('Vande Bharat', '22436', 'Varanasi', 'Patna', '06:00', '10:00', '4h 00m', '2025-04-30', 'EC', 'CC', '', ''),
+('Intercity Express', '13247', 'Rajgir', 'Howrah', '06:00', '16:45', '10h 45m', '2025-05-01', '2A', '3A', 'SL', ''),
+('Pataliputra Exp', '12141', 'Mumbai', 'Patna', '23:30', '07:00', '31h 30m', '2025-05-02', '2A', '3A', 'SL', 'GN');
