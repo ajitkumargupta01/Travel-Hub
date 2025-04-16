@@ -158,7 +158,7 @@ Ajit Kumar Gupta | https://www.linkedin.com/in/ajit-kumar-gupta-89405b297
 
 
 
-***before running the project, do the **
+Before running the project, do the
 **## 💾Database Setup**
 Open MySQL Command Line Client:
   CREATE DATABASE irctc;
