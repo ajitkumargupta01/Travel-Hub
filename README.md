@@ -149,7 +149,9 @@ Edit your profile and manage bookings
 📱 Convert to PWA (Progressive Web App)
 
 **👨‍💻 Contributors**
+
 Ajit Kumar Gupta | https://www.linkedin.com/in/ajit-kumar-gupta-89405b297
+
 📬 Contact
 📧 ajeetkumargupta907@gmail.com 
 
